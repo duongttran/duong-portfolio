@@ -191,3 +191,10 @@ iframe {
         background-attachment: scroll;
     }
 }
+
+@media(max-width: 600px) {
+    .caption {
+        font-size: 15px!important;
+        border: 0!important
+    }
+}
