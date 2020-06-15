@@ -32,6 +32,33 @@ html {
     min-height: 400px;
 }
 
+button {
+    border: #ddd 1px solid;
+    background-color: yellowgreen;
+    color: white;
+    padding: 12px;
+    transition: 0.5s;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    border: #ddd 1px solid;
+    background-color: white;
+ 
+    transition: 0.5s;
+    color: grey;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
 .caption {
     position: absolute;
     left: 0;
