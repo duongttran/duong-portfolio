@@ -22,8 +22,8 @@
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Duong's portfolio</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" >
+        <a class="navbar-brand" href="#home">Duong's portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
         </div>
     </nav>
 
-    <div class="bgimg-1">
+    <div class="bgimg-1" id="home">
         <div class="caption">
             <span class="border">Hello from Duong!</span>
         </div>
@@ -53,10 +53,7 @@
     <div class="text-style-01" id="intro">
         <h1 class="center-text">Welcome to Duong's portfolio</h1>
         <p>Hi! My name is Thuy-Duong Tran. I am a Front End Web Developer with a demonstrated history of working in
-            advertising and digital agencies. I'm interested in Web Design and UX too. Strong arts and design
-            professional with a Digital Media degree from <a href="#" target="_blank">The Centre for Digital Media</a>, Vancouver, Canada.
-            
-        </p>
+        advertising and digital agencies. I'm interested in Web Design and UX too. Strong arts and design professional with a Digital Media degree from <a href="#" target="_blank">The Centre for Digital Media</a>, Vancouver, Canada.</p>
         <p>
             I've lately taken a course in Web Development at <a href="https://www.coderschool.vn/en/"
                 target="_blank">Coder School</a>, so I'm very interested in web development and
@@ -70,132 +67,139 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 center-text em-text" id="projects">
-                These are projects that I've done recently. I always like websites with nice combination of great
-                designs and well-coded and this is what I've always trying to apply into my work.
+    <div class="main-projects">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 center-text em-text" id="projects">
+                    These are projects that I've done recently. I always like websites with nice combination of great
+                    designs and well-coded and this is what I've always trying to apply into my work.
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row half-part">
-            <div class="col-md-6">
-                <a href="https://dng-movie-list.netlify.app/" target="_blank"><img src="img/tmdb.jpg"
-                        class="project-img"></a>
-            </div>
+        <div class="container">
+            <div class="row half-part">
+                <div class="col-md-6">
+                    <a href="https://dng-movie-list.netlify.app/" target="_blank"><img src="img/tmdb.jpg"
+                            class="project-img"></a>
+                </div>
 
-            <div class="col-md-6 right-text">
-                <h2>Clone of TMDB</h2>
-                <p>Using React to display a large movie data and put it into neat design with filters such as sorted by
-                    poppularity, rating, year, categories, etc.</p>
-                <button><a href="https://github.com/duongttran/dng-movie-list" target="_blank">View on
-                        Github</a></button>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="container">
-        <div class="row half-part">
-
-            <div class="col-md-6">
-                <h2>The weather app</h2>
-                <p>Another website built with React, showing weather from some cities around the world. (Better view
-                    with Chrome)</p>
-                <button><a href="https://github.com/duongttran/duong-weather-app" target="_blank">View on
-                        Github</a></button>
-            </div>
-
-            <div class="col-md-6">
-                <a href="https://duong-weather-app.netlify.app/" target="_blank"><img src="img/weather.jpg"
-                        class="project-img"></a>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- <div class="container">
-        <div class="row half-part">
-            <div class="col-md-6">
-                <a href="https://it-viec.netlify.app/" target="_blank"><img src="img/tmdb.jpg" class="project-img"></a>
-            </div>
-
-            <div class="col-md-6 right-text">
-                <h2>Clone of IT Viec</h2>
-                <p>Using React + Redux to replicate IT Viec - a website for finding jobs in Vietnam.</p>
+                <div class="col-md-6 right-text">
+                    <h2>Clone of TMDB</h2>
+                    <p>Using React to display a large movie data and put it into neat design with filters such as sorted
+                        by
+                        poppularity, rating, year, categories, etc.</p>
+                    <button><a href="https://github.com/duongttran/dng-movie-list" target="_blank">View on
+                            Github</a></button>
+                </div>
             </div>
         </div>
-    </div> -->
 
 
 
-    <div class="container">
-        <div class="row half-part">
-            <div class="col-md-6">
-                <a href="https://techcombank.netlify.app/" target="_blank"><img src="img/techcombank.jpg"
-                        class="project-img"></a>
+        <div class="container">
+            <div class="row half-part">
+
+                <div class="col-md-6">
+                    <h2>The weather app</h2>
+                    <p>Another website built with React, showing weather from some cities around the world. (Better view
+                        with Chrome)</p>
+                    <button><a href="https://github.com/duongttran/duong-weather-app" target="_blank">View on
+                            Github</a></button>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="https://duong-weather-app.netlify.app/" target="_blank"><img src="img/weather.jpg"
+                            class="project-img"></a>
+                </div>
+
             </div>
+        </div>
 
-            <div class="col-md-6 right-text">
-                <h2>Techcombank</h2>
-                <p>A landing page for a campaign named "world around you". This is a brief intro about how to register
-                    for the card at the bank included new features, links to techcombank apps, and video tutorials.</p>
+        <!-- <div class="container">
+            <div class="row half-part">
+                <div class="col-md-6">
+                    <a href="https://it-viec.netlify.app/" target="_blank"><img src="img/tmdb.jpg" class="project-img"></a>
+                </div>
+    
+                <div class="col-md-6 right-text">
+                    <h2>Clone of IT Viec</h2>
+                    <p>Using React + Redux to replicate IT Viec - a website for finding jobs in Vietnam.</p>
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="container">
+            <div class="row half-part">
+                <div class="col-md-6">
+                    <a href="https://techcombank.netlify.app/" target="_blank"><img src="img/techcombank.jpg"
+                            class="project-img"></a>
+                </div>
+
+                <div class="col-md-6 right-text">
+                    <h2>Techcombank</h2>
+                    <p>A landing page for a campaign named "world around you". This is a brief intro about how to
+                        register
+                        for the card at the bank included new features, links to techcombank apps, and video tutorials.
+                    </p>
                     <button><a href=" https://github.com/duongttran/techcombank" target="_blank">View on
-                        Github</a></button>
-                   
+                            Github</a></button>
+
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row half-part">
+        <div class="container">
+            <div class="row half-part">
 
-            <div class="col-md-6">
-                <h2>The Equifaira webinar</h2>
-                <p>A landing page about Equifaira (EQ) - a Vancouver-based company about Liquidity Event Planners.
-                    This page is about one of their principles that helps their clients get more info and register for
-                    the events.</p>
+                <div class="col-md-6">
+                    <h2>The Equifaira webinar</h2>
+                    <p>A landing page about Equifaira (EQ) - a Vancouver-based company about Liquidity Event Planners.
+                        This page is about one of their principles that helps their clients get more info and register
+                        for
+                        the events.</p>
                     <button><a href="https://github.com/duongttran/eqlanding" target="_blank">View on
-                        Github</a></button>
-            </div>
+                            Github</a></button>
+                </div>
 
-            <div class="col-md-6">
-                <a href="http://dr.wealthterra.com/" target="_blank"><img src="img/eq.jpg"
-                        class="project-img"></a>
-                        
-            </div>
-            
+                <div class="col-md-6">
+                    <a href="http://dr.wealthterra.com/" target="_blank"><img src="img/eq.jpg" class="project-img"></a>
 
+                </div>
+
+
+            </div>
         </div>
-    </div>
 
-    <!-- <div class="container">
-        <div class="row half-part">
-
-            <div class="col-md-6">
-                <h2>The EQ webinar</h2>
-                <p>A landing page about Equifaira (EQ) - a Vancouver-based company about Liquidity Event Planners. This page is about one of their webinar that helps their clients get more info and register for the events.</p>
+        <!-- <div class="container">
+            <div class="row half-part">
+    
+                <div class="col-md-6">
+                    <h2>The EQ webinar</h2>
+                    <p>A landing page about Equifaira (EQ) - a Vancouver-based company about Liquidity Event Planners. This page is about one of their webinar that helps their clients get more info and register for the events.</p>
+                </div>
+    
+                <div class="col-md-6 flower-bgr ">
+                    <a href="https://www.equifaira.com/webinar-2018.html" target="_blank"><img src="img/eq.jpg" class="project-img"></a>
+                </div>
+    
             </div>
-
-            <div class="col-md-6 flower-bgr ">
-                <a href="https://www.equifaira.com/webinar-2018.html" target="_blank"><img src="img/eq.jpg" class="project-img"></a>
-            </div>
-
-        </div>
-    </div> -->
+        </div> -->
 
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 center-text em-text" id="projects">
-                Some other projects that I've worked on:<br />
-                <a href="https://sotavento.netlify.app/" target="_blank">Sotavento</a>, <a href="https://pd.bccpa.ca/"
-                    target="_blank">CPA Professional
-                    Development Portal</a>, <a href="http://dr.wealthterra.com/" target="_blank">Wealthterra's landing page</a>, <a href="https://it-viec.netlify.app/" target="_blank">Clone of IT Viec</a>.
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 center-text em-text" id="projects">
+                    Some other projects that I've worked on:<br />
+                    <a href="https://sotavento.netlify.app/" target="_blank">Sotavento</a>, <a
+                        href="https://pd.bccpa.ca/" target="_blank">CPA Professional
+                        Development Portal</a>, <a href="http://dr.wealthterra.com/" target="_blank">Wealthterra's
+                        landing page</a>, <a href="https://it-viec.netlify.app/" target="_blank">Clone of IT Viec</a>.
+                </div>
             </div>
         </div>
     </div>
@@ -209,12 +213,10 @@
         </div>
     </div>
 
-    <div style="position:relative;" class="center-text" id="contact">
-        <div
-            style="color:#ddd;background-color:#282E34;text-align:center!important;padding:50px 80px;text-align: justify;">
-            <p>Contact me: <a href="mailto:dngtran2020@gmail.com">dngtran2020@gmail.com</a>, <a
-                    href="github.com/duongttran" target="_blank">github.com/duongttran</a></p>
-        </div>
+    <div class="footer" id="contact">
+        <p>Contact me: <a href="mailto:dngtran2020@gmail.com">dngtran2020@gmail.com</a>, <a href="github.com/duongttran"
+                target="_blank">github.com/duongttran</a></p>
+    </div>
     </div>
 
 
