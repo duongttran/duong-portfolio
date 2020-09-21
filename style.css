@@ -1,103 +1,97 @@
 nav {
-    border-bottom: 3px solid yellowgreen;
+  border-bottom: 3px solid yellowgreen;
 }
 body,
 html {
-    height: 100%;
-    margin: 0;
-    font-family: "Manrope", sans-serif!important;
-    font-size: 16px!important;
-    line-height: 30px!important;
-    color: #777;
+  height: 100%;
+  margin: 0;
+  font-family: "Manrope", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  color: #777;
 }
 
 nav {
-    font-family: "Manrope", sans-serif!important;
-    font-size: 16px!important;
-    line-height: 30px!important;
-    color: #777;
+  font-family: "Manrope", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  color: #777;
 }
 
 nav a {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 .bgimg-1,
 .bgimg-2,
 .bgimg-3 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bgimg-1 {
-    background-image: url("https://princeofwhales.com/wp-content/uploads/2019/05/Vancouver-Adventures.jpg");
-    min-height: 700px;
+  background-image: url("https://princeofwhales.com/wp-content/uploads/2019/05/Vancouver-Adventures.jpg");
+  min-height: 700px;
 }
 
 .bgimg-2 {
-    background-image: url("https://wantsee.world/wp-content/uploads/2019/10/Ho-Chi-Minh-City.-Notre-Dame-Cathedral-Basilica-of-Saigon.jpg");
-    min-height: 400px;
-    
+  background-image: url("https://wantsee.world/wp-content/uploads/2019/10/Ho-Chi-Minh-City.-Notre-Dame-Cathedral-Basilica-of-Saigon.jpg");
+  min-height: 400px;
 }
 
 .bgimg-3 {
-    background-image: url("https://images.adsttc.com/media/images/5015/4321/28ba/0d02/f000/0a5a/large_jpg/stringio.jpg?1414028909=");
-    min-height: 400px;
-}
-
-h1, h2, h3 {
-    font-family: 'Cormorant', serif;
+  background-image: url("https://images.adsttc.com/media/images/5015/4321/28ba/0d02/f000/0a5a/large_jpg/stringio.jpg?1414028909=");
+  min-height: 400px;
 }
 
 h2 {
-    margin: 20px 0!important;
+  margin: 20px 0 !important;
 }
 
 button {
-    border: #ddd 1px solid;
-    background-color: yellowgreen;
-    color: white;
-    padding: 12px;
-    transition: 0.5s;
-    margin: 15px 0!important;
+  border: #ddd 1px solid;
+  background-color: yellowgreen;
+  color: white;
+  padding: 12px;
+  transition: 0.5s;
+  margin: 15px 0 !important;
 }
 
 .border {
-    font-family: 'Cormorant', serif;
-    
+  font-family: "Manrope", serif;
 }
 
 button a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 button:hover {
-    border: #ddd 1px solid;
-    background-color: white;
- 
-    transition: 0.5s;
-    color: grey;
-    text-decoration: none;
+  border: #ddd 1px solid;
+  background-color: white;
+
+  transition: 0.5s;
+  color: grey;
+  text-decoration: none;
 }
 
 button a:hover {
-    color: grey;
-    text-decoration: none;
+  color: grey;
+  text-decoration: none;
 }
 
 .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-    text-transform: uppercase;
-    letter-spacing: 0px!important;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0px !important;
 }
 
 /* .caption-02 {
@@ -105,59 +99,58 @@ button a:hover {
     border: 2px solid white;
 } */
 .parallax-square {
-    background-color:rgba(0, 0, 0, 0.411);
-    font-size:25px;
-    color: #f7f7f7;
-    border: 2px solid white!important;
+  background-color: rgba(0, 0, 0, 0.411);
+  font-size: 25px;
+  color: #f7f7f7;
+  border: 2px solid white !important;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 .caption span.border {
-    background-color: rgba(17, 17, 17, 0.6);
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
+  background-color: rgba(17, 17, 17, 0.6);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
 
 h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
 }
-
 
 /* DUONG */
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
-h1, h2 {
-    margin: 50px 0;
+h1,
+h2 {
+  margin: 50px 0;
 }
 
 h2 {
-    font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 h3 {
-    font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .em-text {
-    font-size: 24px;
-    line-height: 36px;
-    
-    margin: 10% 0;
+  font-size: 24px;
+  line-height: 36px;
+
+  margin: 10% 0;
 }
 
 #projects {
-    
 }
 
 /* .center-video {
@@ -172,22 +165,25 @@ h3 {
 } */
 
 .half-part {
-    margin-top: 50px;
-    margin-bottom: 80px;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 .right-text {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
-
 iframe {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .footer {
-    color:#ddd;background-color:#282E34;text-align:center!important;padding:50px 80px;text-align: justify;
-    border-top: 3px solid yellowgreen;
+  color: #ddd;
+  background-color: #282e34;
+  text-align: center !important;
+  padding: 50px 80px;
+  text-align: justify;
+  border-top: 3px solid yellowgreen;
 }
 
 /* .flower-bgr {
@@ -205,66 +201,63 @@ iframe {
 } */
 
 .project-img {
-    max-width: 100%;
-    width: 100%;
-   height: 100%;
-   border: 1px solid rgb(240, 240, 240);
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(240, 240, 240);
 }
 
 #tmdb {
-    height: 300px;
+  height: 300px;
 }
 
-
-
 .text-style-01 {
-    color: #777;
-    background-color: white;
-    text-align: center;
-    padding: 50px 20%;
-    text-align: justify;
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 20%;
+  text-align: justify;
 }
 
 .card-row {
-    display: flex;
-    justify-content: center;
-    padding: 10% 5%;
+  display: flex;
+  justify-content: center;
+  padding: 10% 5%;
 }
 
 .card {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .btn-primary,
 .btn {
-    color: #fff;
-    background-color: red!important;
-    border-color: #0062cc;
+  color: #fff;
+  background-color: red !important;
+  border-color: #0062cc;
 }
 
 .bgimg-4 {
-    background-color: blue;
-    mix-blend-mode: multiply;
-    background-image: url("https://d3oj2y7irryo5z.cloudfront.net/wp-content/uploads/2020/03/unnamed-2.jpg");
-    /* min-height: 800px; */
+  background-color: blue;
+  mix-blend-mode: multiply;
+  background-image: url("https://d3oj2y7irryo5z.cloudfront.net/wp-content/uploads/2020/03/unnamed-2.jpg");
+  /* min-height: 800px; */
 }
-
 
 /* Turn off parallax scrolling for tablets and phones */
 
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3 {
-        background-attachment: scroll;
-    }
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
 }
 
-@media(max-width: 600px) {
-    .caption span.border {
-        font-size: 15px!important;
-        border: 2px solid white!important;
-        font-weight: 600;
-        background-color: rgba(41, 41, 41, 0.671);
-    }
+@media (max-width: 600px) {
+  .caption span.border {
+    font-size: 15px !important;
+    border: 2px solid white !important;
+    font-weight: 600;
+    background-color: rgba(41, 41, 41, 0.671);
+  }
 }
